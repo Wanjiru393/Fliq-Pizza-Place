@@ -1,18 +1,15 @@
-.pg{
-    background-image: url("../images/back2.jpg");
-    background-image: cover;
-    
-
+body{    
+    /* background-image: url("../images/back2.jpg"); */
+    background-repeat: no-repeat;
+    background: cover;
+    height:100vh;
 }
-.landing{
-background-image: url("/images/back2.jpg");
-background-repeat: no-repeat;
-background-image: cover;
+.location{
+    display:none;
 }
-#header{
-    background-image: url("../images/back2.jpg");
-    height: 100vh;
-    text-align: center;
-    text-transform: uppercase;
-    
+.deliver{
+    display:none;
+}
+#process{
+    display:none;
 }
