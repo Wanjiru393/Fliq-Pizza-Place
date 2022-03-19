@@ -24,7 +24,16 @@ $(document).ready(function(){
                     <td>${newPizza.crust}</td>
                     <td>${newPizza.addCost()}</td>
                     </tr>`)
+                    $("#process").show();
 
     });
     
+    $("#process").click(function(){
+        $(this).hide()
+        $(".deliver").show();
+    })
+     $(".no").click(function(){
+        $(".deliver").hide();
+         $("h5").text("Your order is ready,kindly come and pick it.") ;
+    })
 });
