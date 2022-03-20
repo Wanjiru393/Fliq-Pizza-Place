@@ -23,9 +23,79 @@
           <a href="order.html">Place Order</a>
       </nav>
     </header>
-<h1>Fliq Pizza</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias velit ipsa, tempore dolorum accusamus voluptates quibusdam qui recusandae quo voluptatum magnam eos quod 
-      quae repellat, numquam veritatis consequuntur at deserunt!</p>
+    
+    <!--Order Form-->
+    <div class="orders" >
+        <h1 class="text-center" id="order-pizza">Place Pizza Order</h1>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center" id="form">
+                    <label>Choose size:</label>
+                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                        <option selected disabled hidden>Size</option>
+                        <option value="500">Small</option>
+                        <option value="700">Medium</option>
+                        <option value="900">Large</option>
+                    </select>
+                    <label for="crust">Pick Preferred crust:</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                        <option selected disabled hidden>Crust</option>
+                        <option value="250">Gluten-free</option>
+                        <option value="200">Crispy</option>
+                        <option value="150">Cheese-stuffed</option>
+                        <option value="100">Thin Crust</option>
+                        <option value="50">Thick Crust</option>
+                    </select>
+                    <label>Pick Preferred Toppings:</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                        <option selected disabled hidden>Toppings</option>
+                        <option value="200">Mushrooms</option>
+                        <option value="250">Pepperoni</option>
+                        <option value="150">Onions</option>
+                        <option value="100">Tomato</option>
+                    </select>
+                    <button class="checkout" type="submit">Order</button>
+                </form>
+            </div>
+            <div>
+                <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+                </table>
+                <button class="btn btn-info" id="process" type="button">Process Order</button>
+            </div>
+    </div>
+
+<!--More oder Details Needed-->
+    <div class="deliver">
+        <p>Would you like to have it delivered at a<em> Ksh.200 </em>fee?</p>
+        <div class="btn-deliver">
+            <button class="btn btn-info yes" type="button">Yes</button><br>
+            <button class="btn btn-info no" type="button">No</button>
+        </div>
+    </div>
+    <h5></h5>
+
+    <div class="location">
+        <p>Kindly Add Your Location</p>
+        <form class="location">
+            <input type="text" id="location" name="location" value="Location"><br>
+            <button class="checkout" type="submit">Checkout</button>
+        </form>
+    </div>
+
+    
+
+    <!--script links-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="/js/script.js" ></script>
 </body>
