@@ -110,3 +110,14 @@ header {
     background-image: url("../images/landing2.jpg");
     color: white;
 }
+h4{
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+   
+}
+h5{
+    background-color:white;
+    border-radius: 5px;
+    width: 70%;
+}
