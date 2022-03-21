@@ -39,20 +39,25 @@ $(document).ready(function(){
     })
      $(".no").click(function(){
         $(".deliver").hide();
-         $("h5").text("Your order is ready,total cost is, Ksh. " + totalCost) ;
+         $("h5").text("Your order is ready,total cost is, Ksh. " + totalCost + " Karibu Tena!") ;
+
+         
     })
     $(".yes").click(function(){
         $(".deliver").hide();
-        let location=prompt("Please enter your location");
-        $(".total").text("Cost without delivery, Ksh. "+ totalCost)
-        //  $("h5").text("Your order will be delivered to " + location + ". Total cost is, Ksh. "  + parseInt(totalCost + 200));
 
+        $(".total").text("Cost without delivery, Ksh. "+ totalCost)
+        $(".checkout").click(function(){
+            
+        })
+        
+        
     })
     $(".checkout").click(function(){
-        
+
         $(".total").hide("Cost without delivery, Ksh. "+ totalCost)
 
-        $("h5").text("Your order will be delivered to " + prompt("Kindly confirm your location") + ". Total cost is, Ksh. "  + parseInt(totalCost + 200));
+        $("h5").text("Your order will be delivered to " + prompt("Enter your location") + ". Total cost is, Ksh. "  + parseInt(totalCost + 200) + " Karibu Tena!");
         
     })
     
