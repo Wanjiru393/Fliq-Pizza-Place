@@ -1,6 +1,3 @@
-Fliq Pizza Place
-
-
 # Fliq Pizza Place
 Welcome to Fliq Pizza Place.We prepare the sweetest and most pocket-friendly pizza in town.
 Our delivery services are fast and reliable,and you can also opt to pick your delivery. 
