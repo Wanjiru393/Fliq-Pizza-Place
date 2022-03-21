@@ -1,37 +1,61 @@
-.nav{
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color:black;
+
 }
-.item{
-    font-size: 20px;
-    padding: 16px;
-    display: inline-block;
+.nav{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
 }
-.content, .right{
-    flex: 1;
+.nav li{
+    list-style: none;
+    margin: 0 10px;
 }
-.right{
-    text-align: right;
+.nav li a{
+    color: rgb(156, 102, 102);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 500;
+    transition: 0.5s;
+    border-radius: 25px;
 }
-.landing-text{
-    font-weight: bolder;
-    font-size: 50px;
-    margin-top: 10%;
+.nav li a:hover{
+    background: white;
+    box-shadow: 0 5px 10px rgb(8, 8, 8)
 }
-#push{
-    padding-top: 5%;
+.content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+   background-image: url("../images/landing.jpg");
+   background-position: cover;
+   background-repeat: no-repeat;
 }
-.landing{
-    /* background-image: url("../images/back4.jpg"); */
-    background-size: cover;
-    background-repeat: center;
-    background-repeat: no-repeat;  
-    height: 100%;
+.content-box{
+    background-image: url("../images/landing2.jpg");
+    border-radius: 15px 15px 10px 10px;
+    color:aliceblue;
+    font-size: 4.5em;
+    margin: 10px;
+    line-height: 1em;
 }
-.location{
-    display:none;
+.content-box p{
+    font-size: 1em;
+    color:white;
+    margin: 20px 10px; 
 }
+
 .deliver{
     display:none;
 }
@@ -39,7 +63,66 @@
     display:none;
 }
 .orders{
-    /* background-image: url("../images/landing.jpg"); */
+    background-color:dimgrey;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px 0px 10px 0px; 
+}
+
+.order-overlay{
+    margin:auto;
+    width: 400px;
+    background-color: dimgrey;
+}
+#form{
+    padding: 10px;
+}
+#pizza-form{
+    background-image: url("../images/main.jpg");
+}
+#size,#crust,#toppings{
+    width: 80%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 400;
+    border-radius: 5px 5px 5px 5px;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr{
+    background-color: rgb(8, 8, 8);
+    color:white;
+    text-align:left;
+    font-weight: bold;
+}
+.content-table th, .content-table td{
+    padding: 10px 14px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: rgb(8, 8, 8);
+}
+.button{
+    font-size:25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color:white;
+}
+.contact{
+    background-image: url("../images/landing2.jpg");
+    color: white;
 }

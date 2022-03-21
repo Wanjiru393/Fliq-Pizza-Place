@@ -10,4 +10,4 @@ Copyright Information
 Copyright © 2022. Fliq Pizza Place. Developed by Wanjiru Charity.
 
 Contact
-Email: wambuimbeatrice@gmail.com
+Email: carolciru393@gmail.com
