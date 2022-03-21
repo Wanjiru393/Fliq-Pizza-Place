@@ -43,7 +43,7 @@ $(document).ready(function(){
     })
     $(".yes").click(function(){
         $(".deliver").hide();
-        // let location=prompt("Please enter your location");
+        let location=prompt("Please enter your location");
         $(".total").text("Cost without delivery, Ksh. "+ totalCost)
         //  $("h5").text("Your order will be delivered to " + location + ". Total cost is, Ksh. "  + parseInt(totalCost + 200));
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
         
         $(".total").hide("Cost without delivery, Ksh. "+ totalCost)
 
-        $("h5").text("Your order will be delivered to " + prompt("Please enter your location") + ". Total cost is, Ksh. "  + parseInt(totalCost + 200));
+        $("h5").text("Your order will be delivered to " + prompt("Please enter your location again") + ". Total cost is, Ksh. "  + parseInt(totalCost + 200));
         
     })
     
