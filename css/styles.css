@@ -11,7 +11,7 @@ header {
 }
 .nav{
     position: relative;
-    background-color: black;
+    background-image: url("../images/landing2.jpg");
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -22,7 +22,7 @@ header {
     margin: 0 10px;
 }
 .nav li a{
-    color: rgb(156, 102, 102);
+    color: rgb(169, 184, 34);
     text-decoration: none;
     padding: 5px 10px;
     font-weight: 500;
@@ -33,28 +33,12 @@ header {
     background: white;
     box-shadow: 0 5px 10px rgb(8, 8, 8)
 }
-.content{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh; 
-   background-image: url("../images/landing.jpg");
-   background-position: cover;
-   background-repeat: no-repeat;
+
+.text{
+    padding-top: 30px;
+    min-width: 50px;
 }
-.content-box{
-    background-image: url("../images/landing2.jpg");
-    border-radius: 15px 15px 10px 10px;
-    color:aliceblue;
-    font-size: 4.5em;
-    margin: 10px;
-    line-height: 1em;
-}
-.content-box p{
-    font-size: 1em;
-    color:white;
-    margin: 20px 10px; 
-}
+
 
 .deliver{
     display:none;
